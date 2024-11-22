@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openembedded" fetch="https://git.openembedded.org"/>
+  <remote name="xbrtszstk" fetch="https://github.com/xbrtszstk"/>
+
+  <default remote="xbrtszstk"/>
+
+  <project name="openembedded-core" path="layers/openembedded-core" remote="openembedded" revision="master"/>
+  <project name="bitbake" path="layers/openembedded-core/bitbake" remote="openembedded" revision="master"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="master"/>
+  <project name="meta-flutter" path="layers/meta-flutter" revision="scarthgap"/>
+  <project name="meta-rockchip" path="layers/meta-rockchip" revision="main"/>
+  <project name="meta-xware" path="layers/meta-xware" revision="main"/>
+  <project name="meta-xhello" path="layers/meta-xhello" revision="main"/>
+</manifest>
