@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/"/>
+  <remote name="betafive" fetch="https://github.com/betafive"/>
+  <remote name="xbstk" fetch="https://github.com/xbstk"/>
+
+  <project name="poky" path="layers/poky" remote="yoctoproject" revision="master"/>
+  <project name="meta-linux-mainline" path="layers/meta-linux-mainline" remote="betafive" revision="main"/>
+  <project name="meta-rockchip" path="layers/meta-rockchip" remote="xbstk" revision="main"/>
+  <project name="meta-intercom" path="layers/meta-intercom" remote="xbstk" revision="main"/>
+</manifest>
