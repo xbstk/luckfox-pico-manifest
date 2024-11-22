@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yoctoproject" fetch="https://git.yoctoproject.org/"/>
+  <remote name="openembedded" fetch="http://git.openembedded.org"/>
+  <remote name="xbstk" fetch="https://github.com/xbstk"/>
+
+  <project name="poky" path="layers/poky" remote="yoctoproject" revision="8ce494b9cf84e769ac72b201838c76fd2ff894c9" upstream="styhead"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="styhead"/>
+  <project name="meta-rockchip" path="layers/meta-rockchip" remote="xbstk" revision="styhead"/>
+  <project name="meta-luckfox" path="layers/meta-luckfox" remote="xbstk" revision="styhead"/>
+</manifest>
